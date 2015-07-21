@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 mongo-interface
 =============
 
@@ -188,4 +187,4 @@ Here is an example of a document which can be read/edited in mongo-express:
 =======
 # mongo-interface
 MongoDB interface for database
->>>>>>> 6539dff4e8cd29d1c168ca427a17ad04998ae3b9
+
