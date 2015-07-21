@@ -1,7 +1,10 @@
-mongo-express
+<<<<<<< HEAD
+mongo-interface
 =============
 
-Web-based MongoDB admin interface written with Node.js and express
+Web-based MongoDB admin interface written with Node.js and express - (Latest Bootstrap 3 UI)
+
+Original Source below :
 
 [![Build Status](https://secure.travis-ci.org/andzdroid/mongo-express.png?branch=master)](http://travis-ci.org/andzdroid/mongo-express) - Master (stable) branch
 
@@ -39,18 +42,15 @@ Limitations
 JSON documents are parsed through a javascript virtual machine, so **the web
 interface can be used for executing malicious javascript on a server**.
 
-**mongo-express should only be used privately for development purposes**.
+**mongo-interface should only be used privately for development purposes**.
 
 
 Screenshots
 -----------
 
-<img src="http://i.imgur.com/DOi3b.png" title="Viewing documents in a collection" />
+<img src="http://i.imgur.com/LCqfCWEl.png?1" title="Viewing documents in a collection" />
 
-Click here for more screenshots: 
-[http://imgur.com/a/OTZHe](http://imgur.com/a/OTZHe)
-
-These screenshots are from version 0.11.0.
+These screenshots are updated with bootstrap 3 from version 0.11.0.
 
 
 Usage
@@ -185,14 +185,7 @@ Here is an example of a document which can be read/edited in mongo-express:
       "symbol": Symbol("test")
     }
 
-License
--------
-MIT License
-
-Copyright (c) 2012 Chun-hao Hu
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+=======
+# mongo-interface
+MongoDB interface for database
+>>>>>>> 6539dff4e8cd29d1c168ca427a17ad04998ae3b9
